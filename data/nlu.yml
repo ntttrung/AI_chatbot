@@ -1,0 +1,196 @@
+version: "2.0"
+
+nlu:
+- intent: out_of_scope
+  examples: |
+    - Mình muốn gọi đồ
+    - 2 + 2 bằng mấy
+    - Tổng thống Mỹ là ai?
+    
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - yo
+    - em chào anh
+    - chào ad
+    - chào page
+    - chào anh Tuấn
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - bye
+    - mình cảm ơn bạn nhé
+
+- intent: affirm
+  examples: |
+    - Đúng rồi bạn
+
+- intent: deny
+  examples: |
+    - No
+    - Mình không nghĩ thế
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing good job
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - mình buồn quá
+
+- intent: bot_challenge
+  examples: |
+    - Bạn có phải là bot không?
+    - Bạn có phải là con người không?
+    - Có phải mình đang nói chuyện với bot không?
+    - Có phải mình đang nói chuyện với con người không?
+
+- intent: ask_STK
+  examples: |
+    - Mình thanh toán qua đâu vậy?
+    - Cho mình xin số tài khoản
+    - Cho mình xin stk
+    - mình muốn đăng ký thì như nào vậy?
+    - Đăng ký khóa học
+    - Cho mình dky khóa học
+    - Chuyển khoản như nào?
+    - Mình chuyển khoản nhé
+  
+- intent: ask_phone
+  examples: |
+    - cho mình xin sđt vs
+    - mình có thể liên lạc với bạn như nào?
+    - cho mình xin số điện thoại với
+    - cho mình xin facebook anh Tuấn với
+    - Facebook anh Tuấn là gì?
+    - thông tin liên lạc
+- intent: love
+  examples: |
+    - Bạn có người yêu chưa?
+    - Ad có người yêu chưa
+    - Love
+    - Anh trợ giảng có người yêu chưa ạ?
+
+- intent: assign_succ
+  examples: |
+    - Mình vừa chuyển rồi
+    - Bạn check giúp nhé
+    - Bạn kiểm tra giúp mình với
+    - A Kiểm tra giúp e với
+    - mình chuyển rồi, ad check nhé
+    - Em chuyển r ạ
+    - chuyển tiền rồi
+
+- intent: lich_hoc
+  examples: |
+    - lớp bao giờ khai giảng vậy?
+    - ad cho em hỏi là khi nào mở khóa học thế ạ?
+    - Không biết gần đây nhóm có mở thêm khóa học nào nữa không?
+    - Cho mình xin thông tin khóa với 
+    - hallo, cho mình hỏi khoá này còn nhận học viên không, vì mình hôm nay mới thấy bài viết
+    - em muốn tham khảo thêm về khoá học ạ
+    - bao giờ có khóa mới
+    - mình hỏi khai giảng cơ mà
+    - lịch khai giảng
+    - khai giảng
+    - Page ơi cho mình hỏi đợt này bên mình có tổ chức khóa học nào về deep learning cơ bản không ạ.
+    - khóa python bao giờ mở
+    - khóa DL bao giờ mở
+    - khóa math bao giờ mở
+    - lich học thế nào
+  
+- intent: deep_learning
+  examples: |
+    - tư vấn khóa DL
+    - Anh ơi tư vấn giúp em khóa deep learning cơ bản với ạ
+
+- intent: math
+  examples: |
+    - tư vấn khóa mathematics for machine learning
+    - Anh ơi tư vấn giúp em khóa mathematics for machine learning với ạ
+
+- intent: python
+  examples: |
+    - tư vấn khóa python for data science
+    - Anh ơi tư vấn giúp em khóa python for data science với ạ
+
+- intent: tha_thinh
+  examples: |
+    - bạn có biết thả thính không?
+    - thả thính
+    - Flirt
+    - thả thính đi bạn
+    - bạn co biet tha thinh khong
+
+- intent: entry_request
+  examples: |
+    - Yêu cầu đầu vào khóa là gì ạ?
+    - Khóa này có yêu cầu đầu vào gì không bạn?
+    - Chào bạn, cho mình hỏi khóa học có yêu cầu đầu vào ntn?
+
+- intent: study
+  examples: |
+    - Khóa này có dạy online không bạn?
+    - Cho mình hỏi khóa học khai giảng ngày là học online hay offline vậy?
+    - Khoa hoc nay co day online ko a
+    - Có lớp dạy ở hà đông k ạ
+
+- intent: price
+  examples: |
+    - Bạn ơi khóa học bao tiền vậy?
+    - Học phí bao nhiêu vậy a?
+    - học phí khóa DL như nào vậy?
+    - giá cả như nào
+    - học phí đắt không
+    - cho mình nợ được không
+
+- intent: dl_content
+  examples: |
+    - Khóa học AI có nội dung như nào ạ?
+    - Khóa DL anh dạy những gì thế ạ?
+    - Khóa deep learning học cái gì vậy ad?
+    - mình muốn hỏi về khóa DL
+    - thế còn khóa DL
+
+- intent: math_content
+  examples: |
+    - Khóa học math có nội dung như nào ạ?
+    - Khóa mathematic anh dạy những gì thế ạ?
+    - Khóa MATHEMATICS FOR MACHINE LEARNING học cái gì vậy ad?
+    - mình muốn hỏi về khóa math
+    - thế còn khóa mathematic
+
+- intent: python_content
+  examples: |
+    - Khóa học python có nội dung như nào ạ?
+    - Khóa python anh dạy những gì thế ạ?
+    - Khóa python for data science học cái gì vậy ad?
+    - mình muốn hỏi về khóa python data
+    - thế còn khóa python for data science
+
+
+
+
+
+
+

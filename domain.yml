@@ -1,0 +1,104 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_STK
+  - ask_phone
+  - love
+  - assign_succ
+  - lich_hoc
+  - deep_learning
+  - math
+  - python
+  - tha_thinh
+  - entry_request
+  - study
+  - price
+  - dl_content
+  - math_content
+  - python_content
+  - reservation
+responses:
+  utter_greet:
+  - text: "Chào bạn, mình là bot for AI4E, mình có thể giúp gì cho bạn?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Nó có giúp được gì không?"
+
+  utter_happy:
+  - text: "Amazing, good job bạn ơi"
+
+  utter_goodbye:
+  - text: "ok bạn, hẹn gặp bạn ở khóa học nhé"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by NTT."
+
+  utter_STK:
+  - text: "Bạn chuyển khoảng qua tài khoản vietcombank hoặc techcombank ở đây nhé. Nội dung gồm: khóa học + tên + số điện thoại nhé, sau đó nhắn lại cho mình.\n 1.Tài khoản Vietcombank:\n Số tài khoản: 0491000085742\n Chủ tài khoản: NGUYEN THANH TUAN\n 2.Tài khoản Techcombank\n Số tài khoản: 19034730045010\nChủ tài khoản: NGUYEN THANH TUAN"
+
+  utter_unclear:
+  - text: "Hiện tại mình chưa hiểu yêu cầu của bạn, để mình hỏi anh Tuấn xem sao nhé!"
+
+  utter_hoilai:
+  - text: "Mình xin lỗi, mình không thực sự hiểu bạn đang nói gì. Bạn có thể nhắc lại câu hỏi được không?"
+
+  utter_default:
+  - text: "Xin lỗi, mình không hiểu ý bạn. Bạn nhắc lại câu hỏi được không?"
+
+  utter_ask_phone:
+  - text: "Số mình đây nhé: 0353397888.\nHoặc ib mình qua fb: https://www.facebook.com/nttuan8"
+
+  utter_love:
+  - text: "Mình đã làm gì có người yêu, mình còn đang sợ ế đây này"
+
+  utter_assign_succ:
+  - text: "Mình nhận được rồi, Gần khai giảng mình thêm bạn vào group nhé."
+
+  utter_lich_hoc:
+  - text: "bạn xem thông tin khai giảng các khóa ở đây nhé https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/212634566983400"
+
+  utter_deep_learning:
+  - text: "Khóa Deep Learning cơ bản dành cho các bạn có kiến thức nền về toán và lập trình Python.\nMục tiêu là cung cấp cho các bạn nền tảng toán cho Deep Learning cũng như hiểu các kĩ thuật chính trong Deep Learning để có thể tự nghiên cứu cũng như đi thực tập sau khóa học.\nChi tiết khóa học ở đây: https://www.facebook.com/.../a.112595.../112594880320703/..."
+
+  utter_math:
+  - text: "Toán là nền tảng của AI, theo mình bạn nên học khóa này để có kiến thức về Toán và kiến thức cơ bản của ML dưới góc nhìn Toán học.\nSau đó bạn học thêm về ML và DL sẽ hiệu quả hơn. Như vậy bạn sẽ hiểu bản chất hơn.\nKhóa học nhằm cung cấp nền tảng toán cho mọi người để học về Machine Learning. Bên cạnh đó mình cũng sẽ ứng dụng kiến thức toán đã học để hiểu bản chất các thuật toán ML.\nChi tiết khóa học ở đây: https://www.facebook.com/.../a.112595893.../205209361059254/"
+
+  utter_python:
+  - text: "Đầu vào khóa là các bạn mới chưa có kiến thức về lập trình, phần đầu khóa các bạn sẽ học python cơ bản, cũng như các thuật toán và được rèn luyện tư duy lập trình.\nPhần sau của khóa sẽ bắt đầu học về data science, machine learning. Cuối khóa các bạn sẽ làm project về data science.\nChi tiết khóa học ở đây: https://www.facebook.com/.../a.1125958936.../186332576280266"
+
+  utter_tha_thinh:
+  - text: "Việt Nam có 96 triệu dân, mà chỉ vài người trúng giải đặc biệt của Vietlott.\nTrong khi đó, chỉ mình anh có em.\nVậy là xác suất anh có được em còn nhỏ hơn cả xác suất trúng Vietlott => anh may mắn hơn những người trúng Vietlott"
+
+  utter_entry_request:
+  - text: "Khóa python và khóa Mathematic thì không cần yêu cầu đầu vào, còn khóa DL cơ bản thì bạn làm bài test đầu vào rồi gửi mình check nhé."
+
+  utter_study:
+  - text: "Hiện tại nhằm nâng cao chất lượng khóa học nên mình chỉ mở lớp học offline.\nĐịa chỉ: Tầng 2, Số 2, Ngách 28, Ngõ 93 Hoàng Văn Thái, Phường Khương Trung, Quận Thanh Xuân, Thành phố Hà Nội, Việt Nam."
+
+  utter_price:
+  - text: "Hiện tại mình dạy hoàn toàn free nhé, cuối khóa thủ khoa mình còn tặng thêm tiền nữa nhé"
+
+  utter_dl_content:
+  - text: "bạn tham khảo khóa DL nhé: https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/112594880320703/?type=3&theater"
+
+  utter_math_content:
+  - text: "bạn tham khảo khóa math nhé: https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/205209361059254/"
+
+  utter_python_content:
+  - text: "bạn tham khảo khóa python nhé: https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/186332576280266"
+
+  utter_reservation:
+  - text: "Hiện tại lớp đã full học viên rồi nhé, bạn chú ý thông báo mở khóa học mới trên fanpage nhé!"
+session_config:
+  session_expiration_time: 60

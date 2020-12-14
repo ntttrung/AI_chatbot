@@ -1,0 +1,102 @@
+version: "2.0"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: mood_great
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- story: mood_great
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: ask stk
+  steps:
+  - intent: ask_STK
+  - action: utter_STK
+
+- story: ask_phone
+  steps:
+  - intent: ask_phone
+  - action: utter_ask_phone
+
+- story: love
+  steps:
+  - intent: love
+  - action: utter_love
+
+- story: assign
+  steps:
+  - intent: assign_succ
+  - action: utter_assign_succ
+
+- story: lich hoc
+  steps:
+  - intent: lich_hoc
+  - action: utter_lich_hoc
+
+- story: deep_learning
+  steps:
+  - intent: deep_learning
+  - action: utter_deep_learning
+
+- story: math
+  steps:
+  - intent: math
+  - action: utter_math
+
+- story: python
+  steps:
+  - intent: python
+  - action: utter_python
+
+- story: flirt
+  steps:
+  - intent: tha_thinh
+  - action: utter_tha_thinh
+
+- story: entry request
+  steps:
+  - intent: entry_request
+  - action: utter_entry_request
+
+- story: study
+  steps:
+  - intent: study
+  - action: utter_study
+
+- story: price
+  steps:
+  - intent: price
+  - action: utter_price
+
+- story: dl_content
+  steps:
+  - intent: dl_content
+  - action: utter_dl_content
+
+- story: math_content
+  steps:
+  - intent: math_content
+  - action: utter_math_content
+
+- story: python_content
+  steps:
+  - intent: python_content
+  - action: utter_python_content
+
+- story: reservation
+  steps:
+  - intent: reservation
+  - action: utter_reservation
+
