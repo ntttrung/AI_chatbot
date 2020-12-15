@@ -84,6 +84,7 @@ nlu:
     - cho mình xin facebook anh Tuấn với
     - Facebook anh Tuấn là gì?
     - thông tin liên lạc
+
 - intent: love
   examples: |
     - Bạn có người yêu chưa?
@@ -123,16 +124,19 @@ nlu:
   examples: |
     - tư vấn khóa DL
     - Anh ơi tư vấn giúp em khóa deep learning cơ bản với ạ
+    - Bạn tư vấn chung về khóa học deep learning cho mình với
 
 - intent: math
   examples: |
     - tư vấn khóa mathematics for machine learning
     - Anh ơi tư vấn giúp em khóa mathematics for machine learning với ạ
+    - Bạn tư vấn chung về khóa học mathematic for machine learning cho mình với
 
 - intent: python
   examples: |
     - tư vấn khóa python for data science
     - Anh ơi tư vấn giúp em khóa python for data science với ạ
+    - Bạn tư vấn chung về khóa học python for data science cho mình với
 
 - intent: tha_thinh
   examples: |
