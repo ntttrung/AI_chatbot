@@ -51,7 +51,7 @@ responses:
   - text: "I am a bot, powered by NTT."
 
   utter_STK:
-  - text: "Bạn chuyển khoảng qua tài khoản vietcombank hoặc techcombank ở đây nhé. Nội dung gồm: khóa học + tên + số điện thoại nhé, sau đó nhắn lại cho mình.\n 1.Tài khoản Vietcombank:\n Số tài khoản: 0491000085742\n Chủ tài khoản: NGUYEN THANH TUAN\n 2.Tài khoản Techcombank\n Số tài khoản: 19034730045010\nChủ tài khoản: NGUYEN THANH TUAN"
+  - text: "Bạn chuyển khoảng qua tài khoản vietcombank hoặc techcombank ở đây nhé. Nội dung gồm: khóa học + tên + số điện thoại nhé, sau đó nhắn lại cho mình.\n 1.Tài khoản Vietcombank:\n Số tài khoản: 0491000085742\n Chủ tài khoản: NGUYEN THANH TUAN\n 2.Tài khoản Techcombank\n Số tài khoản: 19034730045010\nChủ tài khoản: NGUYEN THANH TUAN\nHoặc bạn có thể donate cho con bot này qua STK: 22210003002376 ngân hàng BIDV\nChủ tài khoản: NGUYEN THANH TRUNG nhé :)"
 
   utter_unclear:
   - text: "Hiện tại mình chưa hiểu yêu cầu của bạn, để mình hỏi anh Tuấn xem sao nhé!"
@@ -108,7 +108,7 @@ responses:
   - text: "Hiện tại lớp đã full học viên rồi nhé, bạn chú ý thông báo mở khóa học mới trên fanpage nhé!"
 
   utter_info:
-  - text: "Giảng viên khóa này là Nguyễn Thanh Tuấn"
+  - text: "Giảng viên khóa này là Nguyễn Thanh Tuấn. Author tại E-book Deep Learning cơ bản. Research Scientist tại Vingroup Big Data Institute. Từng làm tại Data Scientist PIXTA Vietnam. Từng làm C++ Programmer tại IFI Solution Co., Ltd. Đã học tại University of Bristol. Đang là giảng viên NEU. Sống tại Hà Nội, ny tên Li__. FB có hơn 3K người theo dõi"
     image: "https://2.pik.vn/2020f0d2db11-b59c-42d5-abed-7f1af90f38fb.jpg"
 
   utter_tu_van:
@@ -118,10 +118,10 @@ responses:
   - text: "Bạn có thể chọn khóa python đầu tiên vì khóa python mở ra để phục vụ các bạn chưa có kiến thức nền về lập trình, sau đó bạn có thể củng cố kiến thức để học khóa math hoặc khóa DL :))"
 
   utter_student_no:
-  - text: "Một lớp trung bình có khoảng từ 15-18 bạn, phòng học được trang bị máy chiếu, wifi 5 vạch căng đét, đồ ăn thoải mái, điều hòa lạnh rét run người( nếu ngồi bàn cuối ), cuối khóa còn được đi ăn tôm nữa nhé."
+  - text: "Một lớp trung bình có khoảng từ 15-18 bạn, phòng học được trang bị máy chiếu, wifi 5 vạch căng đét, đồ ăn thoải mái, điều hòa lạnh rét run người ( nếu ngồi bàn cuối ), cuối khóa còn được đi ăn tôm nữa nhé."
 
   utter_support:
   - text: "Khóa python sẽ có một anh trợ giảng đẹp trai chưa có người yêu support nhé, còn các khóa khác sẽ do anh Tuấn trực tiếp chữa bài vào giải đáp thắc mặc của bạn."
-  
+
 session_config:
   session_expiration_time: 60

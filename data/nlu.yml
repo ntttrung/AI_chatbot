@@ -85,6 +85,7 @@ nlu:
     - Thanh toán học phí như nào
     - Chuyển tiền kiểu gì
     - chuyển tiền thế nào
+    - phương thức thanh toán như thế nào
   
 - intent: ask_phone
   examples: |
@@ -212,6 +213,8 @@ nlu:
     - cho mình nợ được không
     - Giá tiền khóa học?
     - Chi phí như nào?
+    - Học phí bao nhiêu
+    - Chi phí khóa học là bao nhiêu
 
 - intent: dl_content
   examples: |
@@ -252,6 +255,7 @@ nlu:
     - Ai sẽ phụ trách khóa học?
     - cho mình xin thông tin giảng viên
     - Bạn có thể cho mình biết thông tin về giảng viên được không ?
+    - Thông tin giảng viên
 
 - intent: khong_biet_gi
   examples: |
@@ -270,6 +274,8 @@ nlu:
     - Phòng học rộng không ạ?
     - Lớp học có wifi không
     - Lớp học có bao nhiêu học viên
+    - Bạn giới thiệu cơ sở vật chất chung cho mình được không ?
+    - Cơ sở vật chất
 
 - intent: support
   examples: |

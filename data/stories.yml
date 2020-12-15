@@ -115,6 +115,11 @@ stories:
   - intent: khong_biet_gi
   - action: utter_khong_biet_gi
 
+- story: student_no
+  steps:
+  - intent: student_no
+  - action: utter_student_no
+
 - story: support
   steps:
   - intent: support
