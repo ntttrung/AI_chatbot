@@ -13,6 +13,7 @@ intents:
   - love
   - assign_succ
   - lich_hoc
+  - tu_van
   - deep_learning
   - math
   - python
@@ -24,9 +25,14 @@ intents:
   - math_content
   - python_content
   - reservation
+  - info
+  - khong_biet_gi
+  - student_no
+  - support
+
 responses:
   utter_greet:
-  - text: "Chào bạn, mình là bot for AI4E, mình có thể giúp gì cho bạn?"
+  - text: "Chào bạn, mình là bot AI4E, mình có thể giúp gì cho bạn?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -57,7 +63,7 @@ responses:
   - text: "Xin lỗi, mình không hiểu ý bạn. Bạn nhắc lại câu hỏi được không?"
 
   utter_ask_phone:
-  - text: "Số mình đây nhé: 0353397888.\nHoặc ib mình qua fb: https://www.facebook.com/nttuan8"
+  - text: "Số anh Tuấn đây nhé: 0353397888.\nHoặc ib qua fb: https://www.facebook.com/nttuan8"
 
   utter_love:
   - text: "Mình đã làm gì có người yêu, mình còn đang sợ ế đây này"
@@ -66,7 +72,7 @@ responses:
   - text: "Mình nhận được rồi, Gần khai giảng mình thêm bạn vào group nhé."
 
   utter_lich_hoc:
-  - text: "bạn xem thông tin khai giảng các khóa ở đây nhé https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/212634566983400"
+  - text: "bạn xem thông tin chi tiết khóa học và lịch khai giảng các khóa ở đây nhé https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/212634566983400"
 
   utter_deep_learning:
   - text: "Khóa Deep Learning cơ bản dành cho các bạn có kiến thức nền về toán và lập trình Python.\nMục tiêu là cung cấp cho các bạn nền tảng toán cho Deep Learning cũng như hiểu các kĩ thuật chính trong Deep Learning để có thể tự nghiên cứu cũng như đi thực tập sau khóa học.\nChi tiết khóa học ở đây: https://www.facebook.com/.../a.112595.../112594880320703/..."
@@ -100,5 +106,22 @@ responses:
 
   utter_reservation:
   - text: "Hiện tại lớp đã full học viên rồi nhé, bạn chú ý thông báo mở khóa học mới trên fanpage nhé!"
+
+  utter_info:
+  - text: "Giảng viên khóa này là Nguyễn Thanh Tuấn"
+    image: "https://2.pik.vn/2020f0d2db11-b59c-42d5-abed-7f1af90f38fb.jpg"
+
+  utter_tu_van:
+  - text: "Hiện tại mình có 3 khóa học:\n     Mathematics for machine learning\n     Python for data science\n     Deep learning\nBạn muốn tư vấn khóa nào vậy?"
+
+  utter_khong_biet_gi:
+  - text: "Bạn có thể chọn khóa python đầu tiên vì khóa python mở ra để phục vụ các bạn chưa có kiến thức nền về lập trình, sau đó bạn có thể củng cố kiến thức để học khóa math hoặc khóa DL :))"
+
+  utter_student_no:
+  - text: "Một lớp trung bình có khoảng từ 15-18 bạn, phòng học được trang bị máy chiếu, wifi 5 vạch căng đét, đồ ăn thoải mái, điều hòa lạnh rét run người( nếu ngồi bàn cuối ), cuối khóa còn được đi ăn tôm nữa nhé."
+
+  utter_support:
+  - text: "Khóa python sẽ có một anh trợ giảng đẹp trai chưa có người yêu support nhé, còn các khóa khác sẽ do anh Tuấn trực tiếp chữa bài vào giải đáp thắc mặc của bạn."
+  
 session_config:
   session_expiration_time: 60

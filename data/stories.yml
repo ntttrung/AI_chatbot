@@ -45,6 +45,11 @@ stories:
   - intent: lich_hoc
   - action: utter_lich_hoc
 
+- story: tu van
+  steps:
+  - intent: tu_van
+  - action: utter_tu_van
+
 - story: deep_learning
   steps:
   - intent: deep_learning
@@ -100,3 +105,17 @@ stories:
   - intent: reservation
   - action: utter_reservation
 
+- story: info
+  steps:
+  - intent: info
+  - action: utter_info
+
+- story: khong_biet_gi
+  steps:
+  - intent: khong_biet_gi
+  - action: utter_khong_biet_gi
+
+- story: support
+  steps:
+  - intent: support
+  - action: utter_support

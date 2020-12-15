@@ -6,7 +6,7 @@ nlu:
     - Mình muốn gọi đồ
     - 2 + 2 bằng mấy
     - Tổng thống Mỹ là ai?
-    
+     
 - intent: greet
   examples: |
     - hey
@@ -18,6 +18,7 @@ nlu:
     - chào ad
     - chào page
     - chào anh Tuấn
+    - chào bot nhé
 
 - intent: goodbye
   examples: |
@@ -28,6 +29,9 @@ nlu:
 - intent: affirm
   examples: |
     - Đúng rồi bạn
+    - ok bạn
+    - yep
+    - yes
 
 - intent: deny
   examples: |
@@ -39,6 +43,8 @@ nlu:
     - perfect
     - great
     - amazing good job
+    - hay
+    - xuất sắc
 
 - intent: mood_unhappy
   examples: |
@@ -75,6 +81,10 @@ nlu:
     - Cho mình dky khóa học
     - Chuyển khoản như nào?
     - Mình chuyển khoản nhé
+    - Chuyền tiền kiểu gì hả chatbot
+    - Thanh toán học phí như nào
+    - Chuyển tiền kiểu gì
+    - chuyển tiền thế nào
   
 - intent: ask_phone
   examples: |
@@ -84,6 +94,7 @@ nlu:
     - cho mình xin facebook anh Tuấn với
     - Facebook anh Tuấn là gì?
     - thông tin liên lạc
+    - cho mình xin info anh Tuan
 
 - intent: love
   examples: |
@@ -119,24 +130,53 @@ nlu:
     - khóa DL bao giờ mở
     - khóa math bao giờ mở
     - lich học thế nào
+    - Thời lượng buổi học là bao nhiêu hả bạn
+    - Một tuần học mấy buổi
+    - Khóa học kéo dài bao lâu
+    - Bạn có thể cho mình biết thời gian?
+
+- intent: tu_van
+  examples: |
+    - Bạn tư vấn chung cho mình được không
+    - Bạn tư vấn chung về khóa học này cho mình với
+    - Bạn giới thiệu chung về khóa học cho mình
+    - Trung tâm có những khóa học nào vậy
+    - Bạn có những khóa học nào
+    - tu vấn giúp mình khóa học
+    - Bạn có thể giới thiệu chung Nội dung về các khóa học là gì được không?
   
 - intent: deep_learning
   examples: |
     - tư vấn khóa DL
+    - tư vấn cho mình khóa deep learning
     - Anh ơi tư vấn giúp em khóa deep learning cơ bản với ạ
-    - Bạn tư vấn chung về khóa học deep learning cho mình với
+    - Khóa deep learning
+    - Mình đạt được gì sau khi học xong khóa DL
+    - Mình đạt được gì sau khi học xong khóa deep
+    - Mình đạt được gì sau khi học xong khóa deep learning
 
 - intent: math
   examples: |
     - tư vấn khóa mathematics for machine learning
+    - tư vấn cho mình khóa mathematic for machine learning
     - Anh ơi tư vấn giúp em khóa mathematics for machine learning với ạ
     - Bạn tư vấn chung về khóa học mathematic for machine learning cho mình với
+    - Khóa math for machine learning
+    - tư vấn khóa math
+    - tư vấn khóa mathematic
+    - Mình đạt được gì sau khi học xong khóa math
+    - Mình đạt được gì sau khi học xong khóa mathematics
+    - Mình đạt được gì sau khi học xong khóa mathematics for machine learning
 
 - intent: python
   examples: |
     - tư vấn khóa python for data science
+    - tư vấn cho mình khóa python
     - Anh ơi tư vấn giúp em khóa python for data science với ạ
     - Bạn tư vấn chung về khóa học python for data science cho mình với
+    - Khóa python
+    - Mình đạt được gì sau khi học xong khóa Python
+    -Mình đạt được gì sau khi học xong khóa Python for data science
 
 - intent: tha_thinh
   examples: |
@@ -158,6 +198,9 @@ nlu:
     - Cho mình hỏi khóa học khai giảng ngày là học online hay offline vậy?
     - Khoa hoc nay co day online ko a
     - Có lớp dạy ở hà đông k ạ
+    - Bạn có thể cho mình biết địa điểm
+    - Bạn có dạy onl không
+    - Bạn có dạy online không
 
 - intent: price
   examples: |
@@ -167,6 +210,8 @@ nlu:
     - giá cả như nào
     - học phí đắt không
     - cho mình nợ được không
+    - Giá tiền khóa học?
+    - Chi phí như nào?
 
 - intent: dl_content
   examples: |
@@ -192,6 +237,47 @@ nlu:
     - mình muốn hỏi về khóa python data
     - thế còn khóa python for data science
 
+- intent: reservation
+  examples: |
+    - Lớp học còn slot không?
+    - Khóa học còn chỗ không?
+    - khóa DL còn chỗ không bạn
+    - khóa python còn chỗ không bạn
+    - khóa math còn chỗ không bạn
+
+- intent: info
+  examples: |
+    - Giảng viên khóa học là ai vậy ạ?
+    - Ai sẽ dạy khóa học này?
+    - Ai sẽ phụ trách khóa học?
+    - cho mình xin thông tin giảng viên
+    - Bạn có thể cho mình biết thông tin về giảng viên được không ?
+
+- intent: khong_biet_gi
+  examples: |
+    - Tớ chưa có kiến thức nền thì có học được không
+    - Mình chưa lập trình bao giờ có học được không
+    - Mình chưa tiếp xúc với python
+    - Mình không biết gì về lập trình
+    - Mình không có kiến thức
+
+- intent: student_no
+  examples: |
+    - Bạn có thể cho mình biết về số lượng học sinh trong một lớp?
+    - Một lớp có bao nhiêu người
+    - Một lớp có bao nhiêu bạn
+    - Lớp có đông không
+    - Phòng học rộng không ạ?
+    - Lớp học có wifi không
+    - Lớp học có bao nhiêu học viên
+
+- intent: support
+  examples: |
+    - Nếu mình có thắc mắc trong quá trình học tập mình có thể tìm kiếm những cách hỗ trợ như thế nào ?
+    - Lúc học mà thắc mắc thì hỏi ai
+    - Khóa học có trợ giảng không ?
+    - Thắc mắc học tập thì hỏi ai
+    - Nếu trên lớp chưa hiểu bài thì hỏi ai
 
 
 
