@@ -68,6 +68,7 @@ nlu:
   examples: |
     - Bạn có phải là bot không?
     - Bạn có phải là con người không?
+    - bạn có phải là người không?
     - Có phải mình đang nói chuyện với bot không?
     - Có phải mình đang nói chuyện với con người không?
 
