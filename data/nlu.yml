@@ -202,6 +202,7 @@ nlu:
     - Bạn có thể cho mình biết địa điểm
     - Bạn có dạy onl không
     - Bạn có dạy online không
+    - lớp math có dạy onl không b
 
 - intent: price
   examples: |
