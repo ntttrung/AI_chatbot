@@ -45,7 +45,7 @@ responses:
   - text: "Amazing, good job bạn ơi"
 
   utter_goodbye:
-  - text: "ok bạn, hẹn gặp bạn ở khóa học nhé"
+  - text: "ok bạn, hẹn gặp bạn ở khóa học. Bạn nhớ đánh giá cho mình 5 sao để nhóm mình được thủ khoa nhé :)"
 
   utter_iamabot:
   - text: "I am a bot, powered by NTT."

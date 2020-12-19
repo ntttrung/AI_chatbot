@@ -4,8 +4,10 @@ nlu:
 - intent: out_of_scope
   examples: |
     - Mình muốn gọi đồ
-    - 2 + 2 bằng mấy
+    - '2 + 2 bằng mấy'
     - Tổng thống Mỹ là ai?
+    - '1 + 1'
+    - Trần Đức Bo là ai
      
 - intent: greet
   examples: |
@@ -22,9 +24,12 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - good afternoon
+    - chào tạm biệt
     - bye
     - mình cảm ơn bạn nhé
+    - thank bạn nhé
+    - thanks
+    - thank iu
 
 - intent: affirm
   examples: |
@@ -35,33 +40,22 @@ nlu:
 
 - intent: deny
   examples: |
-    - No
+    - Không
     - Mình không nghĩ thế
 
 - intent: mood_great
   examples: |
     - perfect
-    - great
-    - amazing good job
+    - tuyệt
+    - tuyệt quá
     - hay
     - xuất sắc
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - buồn nhỉ
+    - buồn quá
+    - mình buồn
     - mình buồn quá
 
 - intent: bot_challenge
@@ -286,6 +280,7 @@ nlu:
     - Khóa học có trợ giảng không ?
     - Thắc mắc học tập thì hỏi ai
     - Nếu trên lớp chưa hiểu bài thì hỏi ai
+    - nếu trên lớp em không hiểu bài thì có cách nào hỗ trợ không ạ
 
 
 
