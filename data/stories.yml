@@ -124,3 +124,18 @@ stories:
   steps:
   - intent: support
   - action: utter_support
+
+- story: text_book
+  steps:
+  - intent: text_book
+  - action: utter_text_book
+
+- story: certificate
+  steps:
+  - intent: certificate
+  - action: utter_certificate
+
+- story: time
+  steps:
+  - intent: time
+  - action: utter_time

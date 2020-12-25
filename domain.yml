@@ -29,6 +29,9 @@ intents:
   - khong_biet_gi
   - student_no
   - support
+  - text_book
+  - certificate
+  - time
 
 responses:
   utter_greet:
@@ -118,10 +121,19 @@ responses:
   - text: "Bạn có thể chọn khóa python đầu tiên vì khóa python mở ra để phục vụ các bạn chưa có kiến thức nền về lập trình, sau đó bạn có thể củng cố kiến thức để học khóa math hoặc khóa DL :))"
 
   utter_student_no:
-  - text: "Một lớp trung bình có khoảng từ 15-18 bạn, phòng học được trang bị máy chiếu, wifi 5 vạch căng đét, đồ ăn thoải mái, điều hòa lạnh rét run người ( nếu ngồi bàn cuối ), cuối khóa còn được đi ăn tôm nữa nhé."
+  - text: "Một lớp trung bình có khoảng từ 15-18 bạn, phòng học được trang bị máy chiếu, wifi 5 vạch căng đét, đồ ăn thoải mái, điều hòa lạnh rét run người (nếu ngồi bàn cuối), cuối khóa còn được đi ăn tôm nữa nhé."
 
   utter_support:
   - text: "Khóa python sẽ có một anh trợ giảng đẹp trai chưa có người yêu support nhé, còn các khóa khác sẽ do anh Tuấn trực tiếp chữa bài vào giải đáp thắc mặc của bạn."
 
+  utter_text_book:
+  - text: "Khi bạn lên lớp, mình sẽ tạo một thư mục chứa slide và video của khóa học. Bạn chỉ cần mang theo máy tính cá nhân của mình để code trên colab chứ không cần mua thêm bất kỳ tài liệu nào khác nhé."
+
+  utter_certificate:
+  - text: "Tất cả các khóa học đều có project cuối khóa, bên cạnh những kiến thức có được trong khóa học thì nếu bạn pass 70 điểm, trung tâm sẽ cấp chứng chỉ cho bạn nhé !"
+
+  utter_time:
+  - text: "Thông thường mỗi buổi học sẽ kéo dài 2 tiếng và mình học 2 buổi/ tuần nhé"
+  
 session_config:
   session_expiration_time: 60

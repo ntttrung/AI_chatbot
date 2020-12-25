@@ -57,6 +57,7 @@ nlu:
     - buồn quá
     - mình buồn
     - mình buồn quá
+    - chán quá
 
 - intent: bot_challenge
   examples: |
@@ -79,6 +80,7 @@ nlu:
     - Chuyền tiền kiểu gì hả chatbot
     - Thanh toán học phí như nào
     - Chuyển tiền kiểu gì
+    - Chuyền tiền kiểu gì hả chatbot
     - chuyển tiền thế nào
     - phương thức thanh toán như thế nào
   
@@ -133,6 +135,7 @@ nlu:
 
 - intent: tu_van
   examples: |
+    - Bên bạn có những khoá học gì
     - Bạn tư vấn chung cho mình được không
     - Bạn tư vấn chung về khóa học này cho mình với
     - Bạn giới thiệu chung về khóa học cho mình
@@ -140,7 +143,10 @@ nlu:
     - Bạn có những khóa học nào
     - tu vấn giúp mình khóa học
     - Bạn có thể giới thiệu chung Nội dung về các khóa học là gì được không?
-  
+    - Mình muốn hỏi chút 
+    - Bạn ơi cho mình hỏi
+    - Bạn có thể giới thiệu cho mình một vài khóa học được không
+
 - intent: deep_learning
   examples: |
     - tư vấn khóa DL
@@ -187,6 +193,9 @@ nlu:
     - Yêu cầu đầu vào khóa là gì ạ?
     - Khóa này có yêu cầu đầu vào gì không bạn?
     - Chào bạn, cho mình hỏi khóa học có yêu cầu đầu vào ntn?
+    - Khoá Math cần nền tảng gì không bạn
+    - Khoá python cần nền tảng gì không bạn
+    
 
 - intent: study
   examples: |
@@ -198,6 +207,10 @@ nlu:
     - Bạn có dạy onl không
     - Bạn có dạy online không
     - lớp math có dạy onl không b
+    - Địa chỉ trung tâm
+    - khóa học dạy ở đâu
+    - Địa chỉ bên mình ở đâu
+    - Địa chỉ của bên mình ở đâu
 
 - intent: price
   examples: |
@@ -211,6 +224,9 @@ nlu:
     - Chi phí như nào?
     - Học phí bao nhiêu
     - Chi phí khóa học là bao nhiêu
+    - Học phí thì sao hả bạn
+    - Giả sử mình học 2 buổi mà éo thấy hợp thì có được hoàn tiền không
+    - Có được hoàn tiền không ?
 
 - intent: dl_content
   examples: |
@@ -240,9 +256,11 @@ nlu:
   examples: |
     - Lớp học còn slot không?
     - Khóa học còn chỗ không?
+    - Khóa học còn chỗ không chatbot
     - khóa DL còn chỗ không bạn
     - khóa python còn chỗ không bạn
     - khóa math còn chỗ không bạn
+    - Khóa học còn thừa slot không bạn
 
 - intent: info
   examples: |
@@ -252,6 +270,11 @@ nlu:
     - cho mình xin thông tin giảng viên
     - Bạn có thể cho mình biết thông tin về giảng viên được không ?
     - Thông tin giảng viên
+    - ai dạy khóa này vậy
+    - khóa này ai dạy
+    - Ai dạy khóa math thế bạn
+    - Ai dạy khóa deep learning thế bạn
+    - Ai dạy khóa python thế bạn
 
 - intent: khong_biet_gi
   examples: |
@@ -260,6 +283,9 @@ nlu:
     - Mình chưa tiếp xúc với python
     - Mình không biết gì về lập trình
     - Mình không có kiến thức
+    - Mình mất gốc
+    - Mình không có nền tảng
+    - Mình mất gốc có theo học được không bạn
 
 - intent: student_no
   examples: |
@@ -272,6 +298,7 @@ nlu:
     - Lớp học có bao nhiêu học viên
     - Bạn giới thiệu cơ sở vật chất chung cho mình được không ?
     - Cơ sở vật chất
+    - Mỗi khoá có bao nhiêu học viên hả bạn
 
 - intent: support
   examples: |
@@ -281,6 +308,27 @@ nlu:
     - Thắc mắc học tập thì hỏi ai
     - Nếu trên lớp chưa hiểu bài thì hỏi ai
     - nếu trên lớp em không hiểu bài thì có cách nào hỗ trợ không ạ
+
+- intent: text_book
+  examples: |
+    - Có tài liệu gì không
+    - Mình có phải mua thêm giáo trình không
+    - Mình có phải mua thêm tài liệu không
+    - Mình có phải tự mang máy tính không
+    - Máy tính có cần mang không
+    - Trên lớp có máy tính không
+    - Máy tính mình yếu có học được không
+    - Mình vào học có phải mua thêm tài liệu gì không
+
+- intent: certificate
+  examples: |
+    - Mình đạt được gì sau khi học xong khóa
+    - Cuối khoá có project gì không bạn
+    - Học xong mình có certificate không
+    
+- intent: time
+  examples: |
+    - Mỗi buổi học kéo dài bao lâu
 
 
 
