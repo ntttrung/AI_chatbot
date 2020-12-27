@@ -54,7 +54,7 @@ responses:
   - text: "I am a bot, powered by NTT."
 
   utter_STK:
-  - text: "Bạn chuyển khoảng qua tài khoản vietcombank hoặc techcombank ở đây nhé. Nội dung gồm: khóa học + tên + số điện thoại nhé, sau đó nhắn lại cho mình.\n 1.Tài khoản Vietcombank:\n Số tài khoản: 0491000085742\n Chủ tài khoản: NGUYEN THANH TUAN\n 2.Tài khoản Techcombank\n Số tài khoản: 19034730045010\nChủ tài khoản: NGUYEN THANH TUAN\nHoặc bạn có thể donate cho con bot này qua STK: 22210003002376 ngân hàng BIDV\nChủ tài khoản: NGUYEN THANH TRUNG nhé :)"
+  - text: "Bạn chuyển khoảng qua tài khoản vietcombank hoặc techcombank ở đây nhé. Nội dung gồm: khóa học + tên + số điện thoại nhé, sau đó nhắn lại cho mình.\n1.Tài khoản Vietcombank:\nSố tài khoản: 0491000085742\nChủ tài khoản: NGUYEN THANH TUAN\n2.Tài khoản Techcombank\nSố tài khoản: 19034730045010\nChủ tài khoản: NGUYEN THANH TUAN\nHoặc bạn có thể donate cho con bot này qua STK: 22210003002376\nNgân hàng BIDV\nChủ tài khoản: NGUYEN THANH TRUNG nhé :) :)"
 
   utter_unclear:
   - text: "Hiện tại mình chưa hiểu yêu cầu của bạn, để mình hỏi anh Tuấn xem sao nhé!"
@@ -130,10 +130,10 @@ responses:
   - text: "Khi bạn lên lớp, mình sẽ tạo một thư mục chứa slide và video của khóa học. Bạn chỉ cần mang theo máy tính cá nhân của mình để code trên colab chứ không cần mua thêm bất kỳ tài liệu nào khác nhé."
 
   utter_certificate:
-  - text: "Tất cả các khóa học đều có project cuối khóa, bên cạnh những kiến thức có được trong khóa học thì nếu bạn pass 70 điểm, trung tâm sẽ cấp chứng chỉ cho bạn nhé !"
+  - text: "Tất cả các khóa học đều có project cuối khóa, bên cạnh những kiến thức có được trong khóa học thì nếu bạn pass 70 điểm, trung tâm sẽ cấp chứng chỉ cho bạn nhé. Đặc biệt hơn nếu bạn thủ khoa khóa DL thì sẽ được đi thực tập tạp công ty icomm nhé."
 
   utter_time:
-  - text: "Thông thường mỗi buổi học sẽ kéo dài 2 tiếng và mình học 2 buổi/ tuần nhé"
+  - text: "Thông thường mỗi buổi học sẽ kéo dài 2 tiếng và mình học 2 buổi/ tuần nhé và kéo dài khoảng 12-14 buổi tùy khóa nhé"
   
 session_config:
   session_expiration_time: 60

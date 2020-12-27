@@ -83,6 +83,10 @@ nlu:
     - Chuyền tiền kiểu gì hả chatbot
     - chuyển tiền thế nào
     - phương thức thanh toán như thế nào
+    - mình muốn đặt chỗ cho lớp python
+    - mình muốn đặt chỗ cho lớp math
+    - mình muốn đặt chỗ cho lớp DL
+    - Cho em đăng kí với ạ
   
 - intent: ask_phone
   examples: |
@@ -114,6 +118,7 @@ nlu:
 - intent: lich_hoc
   examples: |
     - lớp bao giờ khai giảng vậy?
+    - Cho em hỏi khoá python for data science bao giờ có khoá mới ạ
     - ad cho em hỏi là khi nào mở khóa học thế ạ?
     - Không biết gần đây nhóm có mở thêm khóa học nào nữa không?
     - Cho mình xin thông tin khóa với 
@@ -132,6 +137,8 @@ nlu:
     - Một tuần học mấy buổi
     - Khóa học kéo dài bao lâu
     - Bạn có thể cho mình biết thời gian?
+    - em rất muốn tìm hiểu về ML-DL, không biết gần đây nhóm có mở thêm lớp học nào k ạ ?
+    - Khoá ofline sau khoá này gần nhất là khoảng bao h ạ
 
 - intent: tu_van
   examples: |
@@ -146,6 +153,9 @@ nlu:
     - Mình muốn hỏi chút 
     - Bạn ơi cho mình hỏi
     - Bạn có thể giới thiệu cho mình một vài khóa học được không
+    - B tư vấn cho mình với
+    - Bạn tư vấn cho mình với
+    - Mình đang muốn tham khảo 2 khóa học này, page tư vấn giúp mình với ạ
 
 - intent: deep_learning
   examples: |
@@ -156,6 +166,7 @@ nlu:
     - Mình đạt được gì sau khi học xong khóa DL
     - Mình đạt được gì sau khi học xong khóa deep
     - Mình đạt được gì sau khi học xong khóa deep learning
+    - Em muốn hỏi khoá Deep learning cơ bản ạ
 
 - intent: math
   examples: |
@@ -206,11 +217,16 @@ nlu:
     - Bạn có thể cho mình biết địa điểm
     - Bạn có dạy onl không
     - Bạn có dạy online không
+    - cho e xin thông tin khoá onl ad ạ
     - lớp math có dạy onl không b
     - Địa chỉ trung tâm
     - khóa học dạy ở đâu
     - Địa chỉ bên mình ở đâu
     - Địa chỉ của bên mình ở đâu
+    - Không biết AI4E có lớp ở tphcm không ạ
+    - Sắp tới bên page có khoá online nào k ạ
+    - cho e hỏi sang năm đầu tháng có lớp về DATA SCIENCE k ạ
+    - Mà học on hay off thế a
 
 - intent: price
   examples: |
@@ -319,16 +335,23 @@ nlu:
     - Trên lớp có máy tính không
     - Máy tính mình yếu có học được không
     - Mình vào học có phải mua thêm tài liệu gì không
+    - Anh ơi laptop có cần cài những phần mềm gì phục vụ cho quá trình học trên lớp k vậy ạ?!
 
 - intent: certificate
   examples: |
     - Mình đạt được gì sau khi học xong khóa
     - Cuối khoá có project gì không bạn
     - Học xong mình có certificate không
+    - nếu hoàn thiện khoá học có được tạo điều kiện xin thực tập thêm hay được join vào nhóm nào đó để làm thêm các project k ạ?
+    - học này xong đc cấp chứng chỉ j ko a
+    - có khả năng xin đc việc luôn ko a
     
 - intent: time
   examples: |
     - Mỗi buổi học kéo dài bao lâu
+    - Mỗi buổi bao tiếng
+    - Học bao nhiêu buổi vậy bạn
+
 
 
 
