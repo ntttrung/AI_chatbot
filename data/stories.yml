@@ -139,3 +139,8 @@ stories:
   steps:
   - intent: time
   - action: utter_time
+
+- story: icomm
+  steps:
+  - intent: icomm
+  - action: utter_icomm

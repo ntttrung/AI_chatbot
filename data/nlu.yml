@@ -360,6 +360,10 @@ nlu:
     - Mỗi buổi bao tiếng
     - Học bao nhiêu buổi vậy bạn
 
+- intent: icomm
+  examples: |
+    - Công ty icomm là công ty như thế nào ạ
+    - công ty icomm là sao ạ ?
 
 
 

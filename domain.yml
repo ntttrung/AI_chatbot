@@ -32,10 +32,11 @@ intents:
   - text_book
   - certificate
   - time
+  - icomm
 
 responses:
   utter_greet:
-  - text: "Chào bạn, mình là bot AI4E, mình có thể giúp gì cho bạn?"
+  - text: "Chào bạn, mình đứng đây từ chiều"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -78,13 +79,13 @@ responses:
   - text: "bạn xem thông tin chi tiết khóa học và lịch khai giảng các khóa ở đây nhé https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/212634566983400"
 
   utter_deep_learning:
-  - text: "Khóa Deep Learning cơ bản dành cho các bạn có kiến thức nền về toán và lập trình Python.\nMục tiêu là cung cấp cho các bạn nền tảng toán cho Deep Learning cũng như hiểu các kĩ thuật chính trong Deep Learning để có thể tự nghiên cứu cũng như đi thực tập sau khóa học.\nChi tiết khóa học ở đây: https://www.facebook.com/.../a.112595.../112594880320703/..."
+  - text: "Khóa Deep Learning cơ bản dành cho các bạn có kiến thức nền về toán và lập trình Python.\nMục tiêu là cung cấp cho các bạn nền tảng toán cho Deep Learning cũng như hiểu các kĩ thuật chính trong Deep Learning để có thể tự nghiên cứu cũng như đi thực tập sau khóa học.\nChi tiết khóa học ở đây: https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/112594880320703/?type=3&theater"
 
   utter_math:
-  - text: "Toán là nền tảng của AI, theo mình bạn nên học khóa này để có kiến thức về Toán và kiến thức cơ bản của ML dưới góc nhìn Toán học.\nSau đó bạn học thêm về ML và DL sẽ hiệu quả hơn. Như vậy bạn sẽ hiểu bản chất hơn.\nKhóa học nhằm cung cấp nền tảng toán cho mọi người để học về Machine Learning. Bên cạnh đó mình cũng sẽ ứng dụng kiến thức toán đã học để hiểu bản chất các thuật toán ML.\nChi tiết khóa học ở đây: https://www.facebook.com/.../a.112595893.../205209361059254/"
+  - text: "Toán là nền tảng của AI, theo mình bạn nên học khóa này để có kiến thức về Toán và kiến thức cơ bản của ML dưới góc nhìn Toán học.\nSau đó bạn học thêm về ML và DL sẽ hiệu quả hơn. Như vậy bạn sẽ hiểu bản chất hơn.\nKhóa học nhằm cung cấp nền tảng toán cho mọi người để học về Machine Learning. Bên cạnh đó mình cũng sẽ ứng dụng kiến thức toán đã học để hiểu bản chất các thuật toán ML.\nChi tiết khóa học ở đây: https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/205209361059254/"
 
   utter_python:
-  - text: "Đầu vào khóa là các bạn mới chưa có kiến thức về lập trình, phần đầu khóa các bạn sẽ học python cơ bản, cũng như các thuật toán và được rèn luyện tư duy lập trình.\nPhần sau của khóa sẽ bắt đầu học về data science, machine learning. Cuối khóa các bạn sẽ làm project về data science.\nChi tiết khóa học ở đây: https://www.facebook.com/.../a.1125958936.../186332576280266"
+  - text: "Đầu vào khóa là các bạn mới chưa có kiến thức về lập trình, phần đầu khóa các bạn sẽ học python cơ bản, cũng như các thuật toán và được rèn luyện tư duy lập trình.\nPhần sau của khóa sẽ bắt đầu học về data science, machine learning. Cuối khóa các bạn sẽ làm project về data science.\nChi tiết khóa học ở đây: https://www.facebook.com/nttuan8.AI4E/photos/a.112595893653935/186332576280266"
 
   utter_tha_thinh:
   - text: "Việt Nam có 96 triệu dân, mà chỉ vài người trúng giải đặc biệt của Vietlott.\nTrong khi đó, chỉ mình anh có em.\nVậy là xác suất anh có được em còn nhỏ hơn cả xác suất trúng Vietlott => anh may mắn hơn những người trúng Vietlott"
@@ -134,6 +135,9 @@ responses:
 
   utter_time:
   - text: "Thông thường mỗi buổi học sẽ kéo dài 2 tiếng và mình học 2 buổi/ tuần nhé và kéo dài khoảng 12-14 buổi tùy khóa nhé"
+
+  utter_icomm:
+  - text: "Được thành lập vào 2014, công ty CP Truyền thông và Công nghệ iCOMM Việt Nam ra đời với mục tiêu tập trung xây dựng các hệ thống thu thập và phân tích dữ liệu quy mô lớn trên Internet và di động.\n Công ty sẽ sẽ hỗ trợ những bạn học viên trong khóa học DL"
   
 session_config:
   session_expiration_time: 60
