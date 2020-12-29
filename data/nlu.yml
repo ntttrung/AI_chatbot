@@ -155,7 +155,9 @@ nlu:
     - Bạn có thể giới thiệu cho mình một vài khóa học được không
     - B tư vấn cho mình với
     - Bạn tư vấn cho mình với
+    - mình muốn xin tư vấn về khóa học ạ
     - Mình đang muốn tham khảo 2 khóa học này, page tư vấn giúp mình với ạ
+    - Bạn có thể giới thiệu về AI4E không ạ
 
 - intent: deep_learning
   examples: |
@@ -167,6 +169,7 @@ nlu:
     - Mình đạt được gì sau khi học xong khóa deep
     - Mình đạt được gì sau khi học xong khóa deep learning
     - Em muốn hỏi khoá Deep learning cơ bản ạ
+    - Vậy còn khóa Deep learning thì sao nhỉ ?
 
 - intent: math
   examples: |
@@ -180,6 +183,7 @@ nlu:
     - Mình đạt được gì sau khi học xong khóa math
     - Mình đạt được gì sau khi học xong khóa mathematics
     - Mình đạt được gì sau khi học xong khóa mathematics for machine learning
+    - Vậy còn khóa math thì sao nhỉ ?
 
 - intent: python
   examples: |
@@ -189,7 +193,8 @@ nlu:
     - Bạn tư vấn chung về khóa học python for data science cho mình với
     - Khóa python
     - Mình đạt được gì sau khi học xong khóa Python
-    -Mình đạt được gì sau khi học xong khóa Python for data science
+    - Mình đạt được gì sau khi học xong khóa Python for data science
+    - Vậy còn khóa python thì sao nhỉ ?
 
 - intent: tha_thinh
   examples: |
@@ -302,6 +307,7 @@ nlu:
     - Mình mất gốc
     - Mình không có nền tảng
     - Mình mất gốc có theo học được không bạn
+    - Mình là một người mới chưa biết gì thì nên bắt đầu đâu ạ ?
 
 - intent: student_no
   examples: |
@@ -315,6 +321,8 @@ nlu:
     - Bạn giới thiệu cơ sở vật chất chung cho mình được không ?
     - Cơ sở vật chất
     - Mỗi khoá có bao nhiêu học viên hả bạn
+    - môi trường học như thế nào ạ
+    - môi trường học
 
 - intent: support
   examples: |

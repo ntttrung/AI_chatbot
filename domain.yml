@@ -66,7 +66,7 @@ responses:
   - text: "Xin lỗi, mình không hiểu ý bạn. Bạn nhắc lại câu hỏi được không?"
 
   utter_ask_phone:
-  - text: "Số anh Tuấn đây nhé: 0353397888.\nHoặc ib qua fb: https://www.facebook.com/nttuan8"
+  - text: "Số anh Tuấn đây nhé: 03xxxxx888.\nHoặc ib qua fb: https://www.facebook.com/nttuan8"
 
   utter_love:
   - text: "Mình đã làm gì có người yêu, mình còn đang sợ ế đây này"
