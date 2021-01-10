@@ -87,6 +87,7 @@ nlu:
     - mình muốn đặt chỗ cho lớp math
     - mình muốn đặt chỗ cho lớp DL
     - Cho em đăng kí với ạ
+    - Tôi có thể chuyển học phí qua đâu
   
 - intent: ask_phone
   examples: |
@@ -331,6 +332,7 @@ nlu:
     - Khóa học có trợ giảng không ?
     - Thắc mắc học tập thì hỏi ai
     - Nếu trên lớp chưa hiểu bài thì hỏi ai
+    - Lớp có trợ giảng không
     - nếu trên lớp em không hiểu bài thì có cách nào hỗ trợ không ạ
 
 - intent: text_book
@@ -348,17 +350,22 @@ nlu:
 - intent: certificate
   examples: |
     - Mình đạt được gì sau khi học xong khóa
+    - Mình đạt dược gì sau khóa học
     - Cuối khoá có project gì không bạn
     - Học xong mình có certificate không
     - nếu hoàn thiện khoá học có được tạo điều kiện xin thực tập thêm hay được join vào nhóm nào đó để làm thêm các project k ạ?
     - học này xong đc cấp chứng chỉ j ko a
     - có khả năng xin đc việc luôn ko a
+    - chuẩn đầu ra khóa học là gì
+    - Nếu tôi hoàn thành khóa học với thành tích tốt thì có được nhận học bổng không
+
     
 - intent: time
   examples: |
     - Mỗi buổi học kéo dài bao lâu
     - Mỗi buổi bao tiếng
     - Học bao nhiêu buổi vậy bạn
+    - Khóa học kéo dài bao lâu
 
 - intent: icomm
   examples: |
