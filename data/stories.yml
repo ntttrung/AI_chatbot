@@ -50,10 +50,22 @@ stories:
   - intent: tu_van
   - action: utter_tu_van
 
+- story: tu van
+  steps:
+  - intent: tu_van
+  - action: utter_tu_van
+  - intent: deep_learning
+  - action: utter_deep_learning
+
+
 - story: deep_learning
   steps:
   - intent: deep_learning
   - action: utter_deep_learning
+  - intent: math
+  - action: utter_math
+  - intent: python
+  - action: utter_python
 
 - story: math
   steps:

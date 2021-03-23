@@ -18,6 +18,10 @@ nlu:
     - yo
     - em chào anh
     - chào ad
+    - chao ban
+    - chao anh Tuan
+    - em chao anh
+    - chao bot nhe
     - chào page
     - chào anh Tuấn
     - chào bot nhé
@@ -25,65 +29,100 @@ nlu:
 - intent: goodbye
   examples: |
     - chào tạm biệt
+    - chao tam biet
     - bye
     - mình cảm ơn bạn nhé
+    - minh cam on ban nh
     - thank bạn nhé
+    - thank ban nhe
     - thanks
     - thank iu
 
 - intent: affirm
   examples: |
     - Đúng rồi bạn
+    - Dung roi ban
     - ok bạn
+    - ok ban
     - yep
     - yes
 
 - intent: deny
   examples: |
     - Không
+    - Khong
     - Mình không nghĩ thế
+    - Minh khong nghi the
 
 - intent: mood_great
   examples: |
     - perfect
     - tuyệt
+    - tuyet
     - tuyệt quá
+    - tuyet qua
     - hay
     - xuất sắc
+    - xuat sac
 
 - intent: mood_unhappy
   examples: |
     - buồn nhỉ
+    - buon nhi
     - buồn quá
+    - buon qua
     - mình buồn
+    - minh buon 
     - mình buồn quá
+    - minh buon qua
     - chán quá
+    - chan qua
 
 - intent: bot_challenge
   examples: |
     - Bạn có phải là bot không?
+    - Ban co phai la bot khong?
     - Bạn có phải là con người không?
+    - Ban co phai la con nguoi khong?
     - bạn có phải là người không?
+    - bạn co phai la nguoi khong
     - Có phải mình đang nói chuyện với bot không?
+    - Co phai minh dang noi chuyen voi bot khong
     - Có phải mình đang nói chuyện với con người không?
+    - Co phai minh dang noi chuyen voi con nguoi khong?
 
 - intent: ask_STK
   examples: |
     - Mình thanh toán qua đâu vậy?
+    - Minh thanh toan qua dau vay
     - Cho mình xin số tài khoản
+    - Cho minh xin so tai khoan
     - Cho mình xin stk
+    - Cho minh xin stk
     - mình muốn đăng ký thì như nào vậy?
+    - minh muon dang ky thi nhu nao vay?
     - Đăng ký khóa học
+    - Dang ky khoa hoc
     - Cho mình dky khóa học
+    - Cho minh dky khoa hoc
     - Chuyển khoản như nào?
+    - Chuyen khoan nhu nao?
     - Mình chuyển khoản nhé
+    - Minh chuyen khoan nhe
     - Chuyền tiền kiểu gì hả chatbot
+    - Chuyen tien kieu gi ha chatbot
     - Thanh toán học phí như nào
+    - Thanh toan hoc phi nhu nao
     - Chuyển tiền kiểu gì
+    - Chuyen tien kieu gi
     - Chuyền tiền kiểu gì hả chatbot
+    - Chuyen tien kieu gi ha chatbot
     - chuyển tiền thế nào
+    - chuyen tien the nao
     - phương thức thanh toán như thế nào
+    - phuong thuc thanh toan nhu the nao
     - mình muốn đặt chỗ cho lớp python
+    - minh muon dat cho cho lop python
     - mình muốn đặt chỗ cho lớp math
     - mình muốn đặt chỗ cho lớp DL
     - Cho em đăng kí với ạ
@@ -92,54 +131,93 @@ nlu:
 - intent: ask_phone
   examples: |
     - cho mình xin sđt vs
+    - cho minh xin sdt vs
     - mình có thể liên lạc với bạn như nào?
+    - minh co the lien lac voi ban nhu nao?
     - cho mình xin số điện thoại với
+    - cho minh xin so dien thoai voi
     - cho mình xin facebook anh Tuấn với
+    - cho minh xin facebook anh Tuan voi
     - Facebook anh Tuấn là gì?
+    - Facebook anh Tuan la gi?
     - thông tin liên lạc
+    - thong tin lien lac
     - cho mình xin info anh Tuan
+    - cho minh xin info anh tuan
 
 - intent: love
   examples: |
     - Bạn có người yêu chưa?
+    - Ban co nguoi yeu chua
     - Ad có người yêu chưa
+    - Ad co nguoi yeu chua
     - Love
     - Anh trợ giảng có người yêu chưa ạ?
+    - Anh tro giang co nguoi yeu chua a?
 
 - intent: assign_succ
   examples: |
     - Mình vừa chuyển rồi
+    - Minh vua chuyen roi
     - Bạn check giúp nhé
+    - Ban check giup nhe
     - Bạn kiểm tra giúp mình với
+    - Ban kiem tra giup minh voi
     - A Kiểm tra giúp e với
+    - A kiem tra giup e voi
     - mình chuyển rồi, ad check nhé
+    - minh chuyen roi, ad check nhe
     - Em chuyển r ạ
+    - Em chuyen r a
     - chuyển tiền rồi
+    - Chuyen tien roi
 
 - intent: lich_hoc
   examples: |
     - lớp bao giờ khai giảng vậy?
+    - lop bao gio khai giang vay?
     - Cho em hỏi khoá python for data science bao giờ có khoá mới ạ
+    - Cho em hoi khoa python for data science bao gio co khoa moi a
     - ad cho em hỏi là khi nào mở khóa học thế ạ?
+    - ad cho em hoi la khi nao mo khoa hoc the a?
     - Không biết gần đây nhóm có mở thêm khóa học nào nữa không?
+    - Khong biet gan day nhom co mo them khoa hoc nao nua khong
     - Cho mình xin thông tin khóa với 
+    - Cho minh xin thong tin khoa voi
     - hallo, cho mình hỏi khoá này còn nhận học viên không, vì mình hôm nay mới thấy bài viết
+    - hallo, cho minh hoi khoa nay con nhan hoc vien khong, vi minh hom nay moi thay bai viet
     - em muốn tham khảo thêm về khoá học ạ
+    - em muon tham khao them ve khoa hoc a
     - bao giờ có khóa mới
+    - bao gio co khoa moi
     - mình hỏi khai giảng cơ mà
+    - minh hoi khai giang co ma
     - lịch khai giảng
+    - lich khai giang
     - khai giảng
+    - khai giang
     - Page ơi cho mình hỏi đợt này bên mình có tổ chức khóa học nào về deep learning cơ bản không ạ.
+    - page oi cho minh hoi dot nay ben minh co to chuc khoa hoc nao ve deep learning co ban khong a.
     - khóa python bao giờ mở
+    - khoa python bao gio mo
     - khóa DL bao giờ mở
+    - khoa DL bao gio mo
     - khóa math bao giờ mở
+    - Khoa math bao gio mo
     - lich học thế nào
+    - Lich hoc the nao
     - Thời lượng buổi học là bao nhiêu hả bạn
+    - Thoi luong buoi hoc la bao nhei ha ban
     - Một tuần học mấy buổi
+    - Mot tuan hoc may buoi
     - Khóa học kéo dài bao lâu
+    - Khoa hoc keo dai bao lau
     - Bạn có thể cho mình biết thời gian?
+    - Ban co the cho minh biet thoi gian?
     - em rất muốn tìm hiểu về ML-DL, không biết gần đây nhóm có mở thêm lớp học nào k ạ ?
-    - Khoá ofline sau khoá này gần nhất là khoảng bao h ạ
+    - em rat muon tim hieu ve ML-DL, khong biet gan day nhom co mo them lop hoc nao k a ?
+    - Khoá offline sau khoá này gần nhất là khoảng bao h ạ
+    - Khoa offline sau khoa nay gan nhat la khoang bao h a
 
 - intent: tu_van
   examples: |
@@ -160,6 +238,22 @@ nlu:
     - Mình đang muốn tham khảo 2 khóa học này, page tư vấn giúp mình với ạ
     - Bạn có thể giới thiệu về AI4E không ạ
 
+    - Ben ban co nhung khoa hoc gi
+    - Ban tu van chung cho minh duoc khong 
+    - Ban tu van chung ve khoa hoc nay cho minh voi
+    - Ban gioi thieu chung ve khoa hoc cho minh
+    - Trung tam co nhung khoa hoc nao vay
+    - Ban co nhung khoa hoc nao
+    - tu van giup minh khoa hoc
+    - Ban co the gioi thieu chung Noi dung ve cac khoa hoc la gi duoc khong?
+    - Minh muon hoi chut 
+    - Ban oi cho minh hoi
+    - Ban co the gioi thieu cho minh mot vai khoa hoc duoc khong
+    - B tu van cho minh voi
+    - Ban tu van cho minh voi
+    - minh muon xin tu van ve khoa hoc a
+    - Minh dang muon tham khao 2 khoa hoc nay, page tu van giup minh voi a
+    - Ban co the gioi thieu ve AI4E khong a
 - intent: deep_learning
   examples: |
     - tư vấn khóa DL
@@ -171,6 +265,15 @@ nlu:
     - Mình đạt được gì sau khi học xong khóa deep learning
     - Em muốn hỏi khoá Deep learning cơ bản ạ
     - Vậy còn khóa Deep learning thì sao nhỉ ?
+  
+    - tu van khoa DL
+    - tu van cho minh khoa deep learning
+    - Anh oi tu van giup em khoa deep learning co ban voi a
+    - Khoa deep learning
+    - Minh dat duoc gi sau khi hoc xong khoa DL
+    - Minh dat duoc gi sau khi hoc xong khoa deep
+    - Em muon hoi khoa Deep learning co ban a
+    - Vay con khoa Deep learning thi sao nhi ?
 
 - intent: math
   examples: |
@@ -185,6 +288,20 @@ nlu:
     - Mình đạt được gì sau khi học xong khóa mathematics
     - Mình đạt được gì sau khi học xong khóa mathematics for machine learning
     - Vậy còn khóa math thì sao nhỉ ?
+    - tư vấn giúp mình khóa toán
+
+    - tu van khoa mathematics for machine learning
+    - tu van cho minh khoa mathematic for machine learning
+    - Anh oi tu van giup em khoa mathematics for machine learning voi a
+    - Ban tu van chung ve khoa hoc mathematic for machine learning cho minh voi
+    - Khoa math for machine learning
+    - tu van khoa math
+    - tu van khoa mathematic
+    - Minh dat duoc gi sau khi hoc xong khoa math
+    - Minh dat duoc gi sau khi hoc xong khoa mathematics
+    - Minh dat duoc gi sau khi hoc xong khoa mathematics for machine learning
+    - Vay con khoa math thi sao nhi ?
+    - tu van giup minh khoa toan
 
 - intent: python
   examples: |
@@ -197,13 +314,26 @@ nlu:
     - Mình đạt được gì sau khi học xong khóa Python for data science
     - Vậy còn khóa python thì sao nhỉ ?
 
+    - tu van khoa python for data science
+    - tu van cho minh khoa python
+    - Anh oi tu van giup em khoa python for data science voi a
+    - Ban tu van chung ve khoa hoc python for data science cho minh voi
+    - Khoa python
+    - Minh dat duoc gi sau khi hoc xong khoa Python
+    - Minh dat duoc gi sau khi hoc xong khoa Python for data science
+    - Vay con khoa python thi sao nhi ?
+
 - intent: tha_thinh
   examples: |
     - bạn có biết thả thính không?
+    - ban co biet tha thinh khong
     - thả thính
+    - tha thinh
     - Flirt
     - thả thính đi bạn
+    - tha thinh di ban
     - bạn co biet tha thinh khong
+    - ban co biet tha thinh khong
 
 - intent: entry_request
   examples: |
@@ -213,6 +343,11 @@ nlu:
     - Khoá Math cần nền tảng gì không bạn
     - Khoá python cần nền tảng gì không bạn
     
+    - Yeu cau dau vao khoa la gi a?
+    - Khoa nay co yeu cau dau vao gi khong ban?
+    - Chao ban, cho minh hoi khoa hoc co yeu cau dau vao ntn?
+    - Khoa Math can nen tang gi khong ban
+    - Khoa python can nen tang gi khong ban
 
 - intent: study
   examples: |
@@ -234,6 +369,24 @@ nlu:
     - cho e hỏi sang năm đầu tháng có lớp về DATA SCIENCE k ạ
     - Mà học on hay off thế a
 
+    - Khoa nay co day online khong ban?
+    - Cho minh hoi khoa hoc khai giang ngay la hoc online hay offline vay?
+    - Khoa hoc nay co day online ko a
+    - Co lop day o ha dong k a
+    - Ban co the cho minh biet dia diem
+    - Ban co day onl khong
+    - Ban co day online khong
+    - cho e xin thong tin khoa onl ad 
+    - lop math co day onl khong b
+    - Dia chi trung tam
+    - khoa hoc day o dau
+    - Dia chi ben minh o dau
+    - Dia chi cua ben minh o dau
+    - Khong biet AI4E co lop o tphcm khong a
+    - Sap toi ben page co khoa online nao k a
+    - cho e hoi sang nam dau thang co lop ve DATA SCIENCE k a
+    - Ma hoc on hay off the a
+
 - intent: price
   examples: |
     - Bạn ơi khóa học bao tiền vậy?
@@ -250,6 +403,20 @@ nlu:
     - Giả sử mình học 2 buổi mà éo thấy hợp thì có được hoàn tiền không
     - Có được hoàn tiền không ?
 
+    - Ban oi khoa hoc bao tien vay?
+    - Hoc phi bao nhieu vay a?
+    - hoc phi khoa DL nhu nao vay?
+    - gia ca nhu nao
+    - hoc phi dat khong
+    - cho minh no duoc khong
+    - Gia tien khoa hoc?
+    - Chi phi nhu nao?
+    - Hoc phi bao nhieu
+    - Chi phi khoa hoc la bao nhieu
+    - Hoc phi thi sao ha ban
+    - Gia su minh hoc 2 buoi ma eo thay hop thi co duoc hoan tien khong
+    - Co duoc hoan tien khong ?
+
 - intent: dl_content
   examples: |
     - Khóa học AI có nội dung như nào ạ?
@@ -257,6 +424,12 @@ nlu:
     - Khóa deep learning học cái gì vậy ad?
     - mình muốn hỏi về khóa DL
     - thế còn khóa DL
+
+    - Khoa hoc AI co noi dung nhu nao a?
+    - Khoa DL anh day nhung gi the a?
+    - Khoa deep learning hoc cai gi vay ad?
+    - minh muon hoi ve khoa DL
+    - the con khoa DL
 
 - intent: math_content
   examples: |
@@ -266,6 +439,12 @@ nlu:
     - mình muốn hỏi về khóa math
     - thế còn khóa mathematic
 
+    - Khoa hoc math co noi dung nhu nao a?
+    - Khoa mathematic anh day nhung gi the a?
+    - Khoa MATHEMATICS FOR MACHINE LEARNING hoc cai gi vay ad?
+    - minh muon hoi ve khoa math
+    - the con khoa mathematic
+
 - intent: python_content
   examples: |
     - Khóa học python có nội dung như nào ạ?
@@ -273,6 +452,12 @@ nlu:
     - Khóa python for data science học cái gì vậy ad?
     - mình muốn hỏi về khóa python data
     - thế còn khóa python for data science
+
+    - Khoa hoc python co noi dung nhu nao a?
+    - Khoa python anh day nhung gi the a?
+    - Khoa python for data science hoc cai gi vay ad?
+    - minh muon hoi ve khoa python data
+    - the con khoa python for data science
 
 - intent: reservation
   examples: |
@@ -283,6 +468,14 @@ nlu:
     - khóa python còn chỗ không bạn
     - khóa math còn chỗ không bạn
     - Khóa học còn thừa slot không bạn
+
+    - Lop hoc con slot khong?
+    - Khoa hoc con cho khong?
+    - Khoa hoc con cho khong chatbot
+    - khoa DL con cho khong ban
+    - khoa python con cho khong ban
+    - khoa math con cho khong ban
+    - Khoa hoc con thua slot khong ban
 
 - intent: info
   examples: |
@@ -298,6 +491,18 @@ nlu:
     - Ai dạy khóa deep learning thế bạn
     - Ai dạy khóa python thế bạn
 
+    - Giang vien khoa hoc la ai vay a?
+    - Ai se day khoa hoc nay?
+    - Ai se phu trach khoa hoc?
+    - cho minh xin thong tin giang vien
+    - Ban co the cho minh biet thong tin ve giang vien duoc khong ?
+    - Thong tin giang vien
+    - ai day khoa nay vay
+    - khoa nay ai day
+    - Ai day khoa math the ban
+    - Ai day khoa deep learning the ban
+    - Ai day khoa python the ban
+
 - intent: khong_biet_gi
   examples: |
     - Tớ chưa có kiến thức nền thì có học được không
@@ -309,6 +514,16 @@ nlu:
     - Mình không có nền tảng
     - Mình mất gốc có theo học được không bạn
     - Mình là một người mới chưa biết gì thì nên bắt đầu đâu ạ ?
+
+    - To chua co kien thuc nen thi co hoc duoc khong
+    - Minh chua lap trinh bao gio co hoc duoc khong
+    - Minh chua tiep xuc voi python
+    - Minh khong biet gi ve lap trinh
+    - Minh khong co kien thuc
+    - Minh mat goc
+    - Minh khong co nen tang
+    - Minh mat goc co theo hoc duoc khong ban
+    - Minh la mot nguoi moi chua biet gi thi nen bat dau dau a ?
 
 - intent: student_no
   examples: |
@@ -325,6 +540,19 @@ nlu:
     - môi trường học như thế nào ạ
     - môi trường học
 
+    - Ban co the cho minh biet ve so luong hoc sinh trong mot lop?
+    - Mot lop co bao nhieu nguoi
+    - Mot lop co bao nhieu ban
+    - Lop co dong khong
+    - Phong hoc rong khong a?
+    - Lop hoc co wifi khong
+    - Lop hoc co bao nhieu hoc vien
+    - Ban gioi thieu co so vat chat chung cho minh duoc khong ?
+    - Co so vat chat
+    - Moi khoa co bao nhieu hoc vien ha ban
+    - moi truong hoc nhu the nao a
+    - moi truong hoc
+
 - intent: support
   examples: |
     - Nếu mình có thắc mắc trong quá trình học tập mình có thể tìm kiếm những cách hỗ trợ như thế nào ?
@@ -334,6 +562,14 @@ nlu:
     - Nếu trên lớp chưa hiểu bài thì hỏi ai
     - Lớp có trợ giảng không
     - nếu trên lớp em không hiểu bài thì có cách nào hỗ trợ không ạ
+
+    - Neu minh co thac mac trong qua trinh hoc tap minh co the tim kiem nhung cach ho tro nhu the nao ?
+    - Luc hoc ma thac mac thi hoi ai
+    - Khoa hoc co tro giang khong ?
+    - Thac mac hoc tap thi hoi ai
+    - Neu tren lop chua hieu bai thi hoi ai
+    - Lop co tro giang khong
+    - neu tren lop em khong hieu bai thi co cach nao ho tro khong a
 
 - intent: text_book
   examples: |
@@ -345,7 +581,17 @@ nlu:
     - Trên lớp có máy tính không
     - Máy tính mình yếu có học được không
     - Mình vào học có phải mua thêm tài liệu gì không
-    - Anh ơi laptop có cần cài những phần mềm gì phục vụ cho quá trình học trên lớp k vậy ạ?!
+    - Anh ơi laptop có cần cài những phần mềm gì phục vụ cho quá trình học trên lớp k vậy ạ?
+
+    - Co tai lieu gi khong
+    - Minh co phai mua them giao trinh khong
+    - Minh co phai mua them tai lieu khong
+    - Minh co phai tu mang may tinh khong
+    - May tinh co can mang khong
+    - Tren lop co may tinh khong
+    - May tinh minh yeu co hoc duoc khong
+    - Minh vao hoc co phai mua them tai lieu gi khong
+    - Anh oi laptop co can cai nhung phan mem gi phuc vu cho qua trinh hoc tren lop k vay a?
 
 - intent: certificate
   examples: |
@@ -359,6 +605,16 @@ nlu:
     - chuẩn đầu ra khóa học là gì
     - Nếu tôi hoàn thành khóa học với thành tích tốt thì có được nhận học bổng không
 
+    - Minh dat duoc gi sau khi hoc xong khoa
+    - Minh dat duoc gi sau khoa hoc
+    - Cuoi khoa co project gi khong ban
+    - Hoc xong minh co certificate khong
+    - neu hoan thien khoa hoc co duoc tao dieu kien xin thuc tap them hay duoc join vao nhom nao do de lam them cac project k a?
+    - hoc nay xong dc cap chung chi ko a
+    - co kha nang xin dc viec luon ko a
+    - chuan dau ra khoa hoc la gi
+    - Neu toi hoan thanh khoa hoc voi thanh tich tot thi co duoc nhan hoc bong khong
+
     
 - intent: time
   examples: |
@@ -366,11 +622,20 @@ nlu:
     - Mỗi buổi bao tiếng
     - Học bao nhiêu buổi vậy bạn
     - Khóa học kéo dài bao lâu
+    - Học trong bao lâu thế
+
+    - Moi buoi hoc keo dai bao lau
+    - Moi buoi bao tieng
+    - Hoc bao nhieu buoi vay ban
+    - Khoa hoc keo dai bao lau
+    - Hoc trong bao lau the
 
 - intent: icomm
   examples: |
     - Công ty icomm là công ty như thế nào ạ
+    - Cong tu icomm la cong ty nhu the nao a
     - công ty icomm là sao ạ ?
+    - Cong tu icomm la sao a ?
 
 
 
